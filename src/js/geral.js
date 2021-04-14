@@ -14,6 +14,7 @@ $("#botao_buscar").click((event) => {
         .value
         .replace(/ /g, '+');
 
+    linkPesquisa += palavrasChave+"+";
     linkPesquisa += textoBusca;
 
     window.open(linkPesquisa);  
